@@ -87,7 +87,7 @@ The **best model** was selected based on these metrics.
 
 ### 1️⃣ Clone the Repository  
 
-git clone https://github.com/ishitapradhan19/apple-quality-prediction.git  
+git clone https://github.com/ishitapradhan19/web-app-apple-quality.git  
 cd apple-quality-prediction  
 
 ### 2️⃣ Install Backend Dependencies  
