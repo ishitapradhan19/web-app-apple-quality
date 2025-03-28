@@ -1,6 +1,6 @@
 # 🍏 Machine Learning Web App - Apple Quality Prediction 
 
-This is a **machine learning web application** project that predicts outcomes based on the [**Apple Quality Prediction**](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality) dataset. It uses **Node.js with Express.js & EJS**  for the frontend and **FastAPI** for the backend, based on the [kaggle notebook](https://www.kaggle.com/code/ravesandstorm/apple-svm-92-cv) by [Satvik](https://github.com/ravesandstorm/).
+This is a **machine learning web application** project (developed for the college laboratory) that predicts outcomes based on the [**Apple Quality Prediction**](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality) dataset. It uses **Node.js with Express.js & EJS**  for the frontend and **FastAPI** for the backend, based on the [kaggle notebook](https://www.kaggle.com/code/ravesandstorm/apple-svm-92-cv) by [Satvik](https://github.com/ravesandstorm/).
 
 ## Tech Stack
 ### Ishita
@@ -8,8 +8,8 @@ This is a **machine learning web application** project that predicts outcomes ba
 - **Styling:** CSS – Custom UI design.
 
 ### Satvik
-- **Backend:** FastAPI (Python) – Handles ML model predictions.
-- **Machine Learning:** Scikit-learn, NumPy, Pandas. 
+- **Backend:** Uvicorn, FastAPI (Python) – Handles ML model predictions and remote server.
+- **Machine Learning:** Scikit-learn, NumPy, Pandas
 
 ---
 
@@ -36,9 +36,9 @@ The dataset used is [`apple_quality.csv`](https://www.kaggle.com/datasets/nelgir
 
 ---
 
-## ⚙️ Machine Learning Process  
+## ⚙️ Machine Learning Process based on [notebook](https://www.kaggle.com/code/ravesandstorm/apple-svm-92-cv)
 
-### 1️⃣ Apply 6 Classifiers  
+### 1️⃣ Applying All Classifiers  
 
 The following six models were applied to classify apples into **good or bad** quality:  
 
@@ -82,7 +82,7 @@ The models were evaluated again using:
 - **Recall**  
 - **F1-Score**  
 
-The **best model** was selected based on these metrics.  
+The best model **SVM** with **92.075% Cross Validation Accuracy** was selected based on these metrics, and then **FastAPI** was configured to run on the backend using the **Uvicorn** module, using the best model hyperparameters discovered in the notebook, developed by [Satvik](https://github.com/ravesandstorm/).
 
 ---
 
