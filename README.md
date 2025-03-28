@@ -84,6 +84,8 @@ The models were evaluated again using:
 
 The best model **SVM** with **92.075% Cross Validation Accuracy** was selected based on these metrics, and then **FastAPI** was configured to run on the backend using the **Uvicorn** module, using the best model hyperparameters discovered in the notebook, developed by [Satvik](https://github.com/ravesandstorm/).
 
+Node modules and frontend scripts with **ejs and js** were processed and developed by me.
+
 ---
 
 ## 🚀 How to Run the Application  
