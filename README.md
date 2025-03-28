@@ -1,11 +1,14 @@
 # 🍏 Machine Learning Web App - Apple Quality Prediction 
 
-This project is a **machine learning web application** that predicts outcomes based on different datasets, including **Apple Quality Prediction**. It uses **FastAPI** for the backend and **Node.js with Express.js & EJS** for the frontend.
+This is a **machine learning web application** project that predicts outcomes based on the [**Apple Quality Prediction**](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality) dataset. It uses **Node.js with Express.js & EJS**  for the frontend and **FastAPI** for the backend, based on the [kaggle notebook](https://www.kaggle.com/code/ravesandstorm/apple-svm-92-cv) by [Satvik](https://github.com/ravesandstorm/).
 
 ## Tech Stack
-- **Backend:** FastAPI (Python) – Handles ML model predictions.
+### Ishita
 - **Frontend:** Node.js, Express.js, EJS – Manages the UI.
 - **Styling:** CSS – Custom UI design.
+
+### Satvik
+- **Backend:** FastAPI (Python) – Handles ML model predictions.
 - **Machine Learning:** Scikit-learn, NumPy, Pandas. 
 
 ---
@@ -21,7 +24,7 @@ This project is a **machine learning web application** that predicts outcomes ba
 
 ## 📂 Dataset  
 
-The dataset used is `apple_quality.csv`, containing features such as:  
+The dataset used is [`apple_quality.csv`](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality), containing the features:  
 
 - **Size**  
 - **Weight**  
